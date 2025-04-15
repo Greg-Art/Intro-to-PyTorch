@@ -1,0 +1,65 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Logs and debug
+*.log
+
+# PyTorch or model outputs
+*.pt
+*.pth
+*.ckpt
+
+# Python environment files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Test, coverage, or profiling outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# MyPy and type hints
+.mypy_cache/
+.pytype/
+
+# Notebook output cache (if using Jupyter Lab extensions)
+.ipynb_metadata/
+
+# Installer logs
+pip-log.txt
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Ignore data (optional - only if datasets shouldn't be tracked)
+data/
+datasets/
+outputs/
